@@ -4,7 +4,7 @@ metadata:
   name: todo-ui
   namespace: default
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: todo-ui
   ports:
